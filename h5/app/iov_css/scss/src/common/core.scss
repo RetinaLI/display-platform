@@ -1,0 +1,334 @@
+@import "./components/base";
+@import "./components/data-table";
+@import "./components/datepicker";
+@import "./components/dialog";
+
+.body_content .dialog_ct {
+  border-bottom-color: $main-theme-color;
+}
+
+.padding_top4>a {
+  color: $main-theme-color;
+}
+
+.dynamicTab2_float {
+  border-bottom-color: $main-theme-color;
+}
+
+.body_content .title {
+  height: 35px;
+  border-left: 5px solid $main-theme-color;
+  font-size: 15px;
+  line-height: 35px;
+  margin-left: 5px;
+  padding-left: 10px;
+  color: #423f3f;
+  width: 100%;
+}
+
+.basicTab_current_center {
+  border-bottom-color: $main-theme-color;
+}
+
+#page_realTimeData .info a {
+  color: $main-theme-color;
+}
+
+.form-horizontal .btn-search {
+  background-color: $main-theme-color;
+}
+
+.btn-primary,
+.btn-danger {
+  border-color: $main-theme-color;
+  color: $main-theme-color;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  background-color: $main-theme-color;
+  color: #fff;
+  border-color: $main-theme-color;
+}
+
+.driving-info>a {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: $main-theme-color;
+  padding: 5px 8px;
+}
+
+.fuel-info>table>tbody>tr>th>div {
+  font-size: 16px;
+  font-weight: bolder;
+  height: 35px;
+  border-bottom: 1px solid #DDDDDD;
+  border-left: 5px solid $main-theme-color;
+  line-height: 35px;
+  padding-left: 10px;
+  color: #423f3f;
+  margin-right: 20px;
+}
+
+#chartTitle {
+  border-bottom: 2px solid $main-theme-color;
+  padding: 0px 10px;
+}
+
+#metricsList li a:hover {
+  padding-left: 18px;
+  font-weight: 700;
+  color: $main-theme-color;
+  background-color: transparent;
+  border-left: 2px solid $main-theme-color;
+}
+
+#metricsList li a:focus {
+  padding-left: 19px;
+  color: $main-theme-color;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid $main-theme-color;
+}
+
+.href-current {
+  padding-left: 19px;
+  color: $main-theme-color !important;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+  border-left: 1px solid $main-theme-color;
+}
+
+button.dropdown-toggle {
+  color: $main-theme-color;
+}
+
+.btn-group .dropdown-toggle.btn-default {
+  color: $main-theme-color;
+}
+
+.l-panel-btn {
+  color: $main-theme-color;
+}
+
+.btn-current {
+  border-color: $main-theme-color;
+}
+
+div.selectbox-wrapper ul li.current {
+  background-color: $main-theme-color;
+}
+
+div.selectbox-wrapper ul li.selected {
+  background-color: #94c9e1;
+}
+
+.play {
+  background-color: $main-theme-color;
+}
+
+
+.gm_dialog .title {
+  border-left: none;
+}
+
+#real-time {
+  border-left: none;
+}
+
+.icomoon {
+  color: $main-theme-color;
+}
+
+
+
+/* qui */
+
+.l-bar-btnfirst span,
+.l-bar-btnprev span,
+.l-bar-btnlast span,
+.l-bar-btnnext span {
+  background: none;
+}
+
+.countStartDate,
+.countEndDate,
+.countDate,
+.countFromDate,
+.countToDate,
+.startDate,
+.endDate,
+.runDate,
+.userStartTime,
+.userEndTime {
+  position: relative;
+}
+
+.countStartDate>.date,
+.countEndDate>.date,
+.countDate>.date,
+.countFromDate>.date,
+.countToDate>.date,
+.startDate>#startDate,
+.endDate>#endDate,
+.runDate>#date,
+.userStartTime > #startDate,
+.userEndTime> #endTime {
+  background: transparent;
+  z-index: 2;
+  position: relative;
+}
+
+.countStartDate>.foton-datePicker,
+.countEndDate>.foton-datePicker,
+.userStartTime>.foton-datePicker,
+.userEndTime> .foton-datePicker {
+  font-size: 18px;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  z-index: 1;
+}
+
+.countDate>.foton-datePicker {
+  font-size: 16px;
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  z-index: 1;
+}
+
+.countFromDate>.foton-datePicker,
+.countToDate>.foton-datePicker {
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  right: 8px;
+  z-index: 1;
+}
+
+.startDate>.foton-datePicker {
+  font-size: 17px;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 1;
+}
+
+.endDate>.foton-datePicker {
+  font-size: 17px;
+  position: absolute;
+  top: 0;
+  right: 3px;
+  z-index: 1;
+}
+
+.runDate>.foton-datePicker {
+  font-size: 17px;
+  position: absolute;
+  top: 2px;
+  right: 9px;
+  z-index: 1;
+}
+
+
+
+/* form */
+
+.openTime,
+.endTime,
+.lpnStartTime,
+.lpnEndTime,
+.productionDate,
+.salesDate,
+.openDate,
+.validDate,
+.batteryProductionDate {
+  position: relative;
+}
+
+.openTime>#openTime,
+.endTime>#endTime,
+.lpnStartTime>#lpnStartTime,
+.lpnEndTime>#lpnEndTime,
+.productionDate>#productionDate,
+.salesDate>#salesDate,
+.openDate>#openDate,
+.validDate>#validDate,
+.batteryProductionDate>#batteryProductionDate {
+  background: transparent;
+}
+
+.openTime>.foton-datePicker,
+.endTime>.foton-datePicker,
+.lpnStartTime>.foton-datePicker,
+.lpnEndTime>.foton-datePicker,
+.productionDate>.foton-datePicker,
+.salesDate>.foton-datePicker,
+.openDate>.foton-datePicker,
+.validDate>.foton-datePicker {
+  font-size: 16px;
+  position: absolute;
+  top: 14px;
+  right: 66px;
+}
+
+.batteryProductionDate>.foton-datePicker {
+  font-size: 16px;
+  position: absolute;
+  top: 12px;
+  right: 58px;
+}
+
+#byDayCondition>span {
+  position: relative;
+  display: inline-block;
+}
+
+#byDayCondition .btn-current {
+  background: none;
+}
+
+#byDayCondition>span>i {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.btn-current {
+  position: relative;
+  line-height: 1.5;
+}
+
+.btn-current:before {
+  content: "\e901";
+  position: absolute;
+  bottom: -4px;
+  right: -1px;
+  color: $main-theme-color;
+}
+
+.btn-default.time:focus,
+.btn-default.time:hover {
+  color: $main-theme-color;
+  background-color: transparent;
+  border-color: $main-theme-color;
+  outline: none;
+}
+
+.pageNumber .current {
+  background: $main-theme-color;
+}
+
+.top-left-part >.logo:hover,
+.top-left-part >.logo:active,
+.top-left-part >.logo:visited{
+  color:$white;
+}
+
+.top-navbar .top-left-part{
+	width:auto;
+	padding-right:20px;
+}

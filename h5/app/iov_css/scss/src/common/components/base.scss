@@ -1,0 +1,44 @@
+body {
+  background-color: $body-bg-color;
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+}
+
+a {
+  color: $a-font-color;
+  &:visited,
+  &:link,
+  &:hover {
+    color: $a-font-color;
+  }
+}
+
+button,
+.button {
+  background-color: $button-bg-color;
+}
+
+h1, .h1{
+  /*font-size*/
+  /*color*/
+}
+
+h2, .h2{}
+
+h3, .h3{
+
+}
+
+h4, .h4{}
+
+.chart-title{
+
+}
+
+.form-params{
+
+}
+
+.form-body{
+  
+}

@@ -1,0 +1,93 @@
+@import "../common/variables";
+@import "../common/mixins";
+@import "../common/reset";
+
+$main-theme-color: $foton-blue;
+
+$font-hover-color: $main-theme-color;
+$border-color: $main-theme-color;
+
+$a-font-color: $main-theme-color;
+$a-visited-color: $main-theme-color;
+$a-link-color: $main-theme-color;
+
+$button-bg-color: $main-theme-color;
+
+@import "../common/core-for-blue";
+
+a {
+  &:visited,
+  &:link,
+  &:hover {
+    color: $main-theme-color;
+  }
+}
+
+.play {
+  background-color: #015198;
+}
+
+.btn-current {
+  border: 1px solid #015198;
+}
+
+.title.old {
+  height: 35px;
+  border-left: 5px solid #0A6FBF;
+  font-size: 15px;
+  line-height: 35px;
+  margin-left: 5px;
+  padding-left: 10px;
+  color: #423f3f;
+  width: 100%;
+}
+
+.fuel-info>table>tbody>tr>th>div {
+  font-size: 16px;
+  font-weight: bolder;
+  height: 35px;
+  border-bottom: 1px solid #DDDDDD;
+  border-left: 5px solid #0A6FBF;
+  line-height: 35px;
+  padding-left: 10px;
+  color: #423f3f;
+  margin-right: 20px;
+}
+
+.driving-info>a {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #015198;
+  padding: 5px 8px;
+}
+
+.href-current {
+  padding-left: 19px;
+  color: #015198 !important;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+  border-left: 1px solid #015198
+}
+
+#metricsList.old li a:hover {
+  padding-left: 18px;
+  font-weight: 700;
+  color: #563d7c;
+  background-color: transparent;
+  border-left: 2px solid #563d7c
+}
+
+#metricsList.old li a:focus {
+  padding-left: 19px;
+  color: #563d7c;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid #563d7c
+}
+
+#chartTitle.old {
+  border-bottom: 2px solid #0A6FBF;
+  padding: 0px 10px;
+}

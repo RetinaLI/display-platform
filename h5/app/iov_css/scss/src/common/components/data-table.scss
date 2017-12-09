@@ -1,0 +1,11 @@
+.data-table{
+  a{
+    &.link{
+      color: $main-theme-color;
+    }
+    &.op-button{
+      color: $main-theme-color;
+    }
+  }
+}
+

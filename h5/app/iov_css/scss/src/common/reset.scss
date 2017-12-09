@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  resize: none;
+}
+
+html,
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+body{
+  @include clearfix;
+
+  /*fix safari clearbox 无效的bug*/
+  &:after{
+    border: 1px solid transparent;
+  }
+}
+
+button{
+  background-color:transparent;
+  border:0;
+}
+
+ul{
+  -webkit-padding-start: 0px;
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fafafa;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background-color: #e9ebed;
+  border-radius: 5px;
+}

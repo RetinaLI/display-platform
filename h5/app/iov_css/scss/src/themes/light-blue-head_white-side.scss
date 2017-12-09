@@ -1,0 +1,65 @@
+@import "../common/variables";
+@import "../common/mixins";
+@import "../common/reset";
+
+$main-theme-color: $light-blue;
+
+$font-hover-color: $main-theme-color;
+$border-color: $main-theme-color;
+
+$a-font-color: $main-theme-color;
+$a-visited-color: $main-theme-color;
+$a-link-color: $main-theme-color;
+
+$top-nav-bg-color: $main-theme-color;
+$side-nav-bg-color: $white;
+$side-nav-font-color: #54667a;
+$side-nav-active-font-color: $white;
+$side-nav-active-bg-color: $main-theme-color;
+$side-nav-second-active-font-color: $a-font-color;
+
+$button-bg-color: $main-theme-color;
+
+.top-navbar {
+  .navbar-header {
+    background-color: $top-nav-bg-color;
+  }
+}
+
+.sidebar {
+  background-color: $side-nav-bg-color;
+  .sidebar-head {
+    background-color: $side-nav-bg-color;
+    h3 {
+      color: #686868;
+    }
+  }
+  #side-menu {
+    &>li {
+      &>a {
+        color: $side-nav-font-color;
+        &.active {
+          background-color: $side-nav-active-bg-color;
+          color: $side-nav-active-font-color;
+        }
+      }
+
+      .nav {
+        li {
+          a {
+            color: $side-nav-font-color;
+            &:hover {
+              color: $side-nav-second-active-font-color;
+            }
+            &.active {
+              color: $side-nav-second-active-font-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "../common/core";
+

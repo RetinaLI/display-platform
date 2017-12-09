@@ -1,0 +1,25 @@
+@mixin clearfix { 
+  *zoom: 1; /*ie6 ie7*/
+  &:before, &:after { 
+    content: ""; 
+    display: table; 
+    font: 0/0 a; 
+  } 
+  &:after { 
+    clear: both; 
+  } 
+}
+
+/*text overflow ellipsis*/
+@mixin x-text-ellipsis ($width: 100%) {
+  white-space: nowrap;
+  *width: $width; /*ie6*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin x-breakword () {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
